@@ -11,5 +11,5 @@ post_upgrade() {
 }
 
 run_depmod() {
-    depmod -a 4.15.3-2-ARCH
+    depmod -a 4.15.4-1-ARCH
 }
