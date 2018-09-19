@@ -15,11 +15,15 @@ pkgname = spl-linux
 	pkgdesc = Solaris Porting Layer kernel modules.
 	groups = archzfs-linux
 	provides = spl
+	conflicts = spl-dkms
+	conflicts = spl-dkms-git
 	conflicts = spl-linux-git
 	replaces = spl-git
 
 pkgname = spl-linux-headers
 	pkgdesc = Solaris Porting Layer kernel headers.
 	provides = spl-headers
+	conflicts = spl-dkms
+	conflicts = spl-dkms-git
 	conflicts = spl-headers
 
