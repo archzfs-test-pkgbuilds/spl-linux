@@ -24,5 +24,6 @@ pkgname = spl-linux-headers
 	provides = spl-headers
 	conflicts = spl-dkms
 	conflicts = spl-dkms-git
+	conflicts = spl-dkms-rc
 	conflicts = spl-headers
 
