@@ -18,11 +18,11 @@
 pkgbase="spl-linux"
 pkgname=("spl-linux" "spl-linux-headers")
 _splver="0.7.12"
-_kernelver="4.19.8.arch1-1"
-_extramodules="${_kernelver/.arch/-arch}-ARCH"
+_kernelver="4.20.1.arch1-1"
+_extramodules="4.20.1-arch1-1-ARCH"
 
 pkgver="${_splver}_$(echo ${_kernelver} | sed s/-/./g)"
-pkgrel=2
+pkgrel=1
 makedepends=("linux-headers=${_kernelver}")
 arch=("x86_64")
 url="http://zfsonlinux.org/"
